@@ -1,5 +1,6 @@
 FROM debian:bookworm-slim
 
+RUN apt-get -y update
 RUN apt install mediainfo
 
 WORKDIR /src
