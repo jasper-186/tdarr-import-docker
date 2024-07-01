@@ -1,7 +1,7 @@
 FROM debian:bookworm-slim
 
 RUN apt-get -y update
-RUN apt install mediainfo
+RUN apt-get -y install mediainfo 
 
 WORKDIR /src
 COPY tdarr-import.sh .
