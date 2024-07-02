@@ -50,7 +50,7 @@ do
 
 ############################################### Start Copy/Move ###############################
     # Cool file Exists, does it also exist on W/R?
-    echo "proccessing file '$file'"
+    echo "processing file '$file'"
     WrMkvFile="${file//$TdarrDir/$PlexDir}"
     WrMkvFile="${WrMkvFile// .mkv/.mkv}"
     #echo "trimmed file '$WrMkvFile'"
