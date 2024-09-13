@@ -3,7 +3,7 @@
 # Dependencies
 # mediainfo
 
-PlexDir="/Media/TVShows/"
+PlexDir="/TVShows/"
 TdarrDir="/Tdarr/"
 
 files=("1")
